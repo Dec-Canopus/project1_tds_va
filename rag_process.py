@@ -18,6 +18,8 @@ from langchain_core.runnables import RunnablePassthrough
 from pinecone import Pinecone
 from langchain_openai import OpenAIEmbeddings
 
+pytesseract.pytesseract.tesseract_cmd = r'C:\\Users\\gsing\\AppData\\Local\\Programs\\Tesseract-OCR\\tesseract.exe'
+
 
 load_dotenv()
 

@@ -7,10 +7,10 @@ __pycache__/
 scrape_data/__pycache__/
 
 # === Scraped data files (optional: remove if you want to track them) ===
-data/
+data/discourse_forum.json
+data/tds_content.json
 
 delete_pinecone.py
-project-tds-virtual-ta-promptfoo.yaml
 
 .vscode/
 .env
