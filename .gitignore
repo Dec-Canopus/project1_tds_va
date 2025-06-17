@@ -7,8 +7,7 @@ __pycache__/
 scrape_data/__pycache__/
 
 # === Scraped data files (optional: remove if you want to track them) ===
-data/discourse_forum.json
-data/tds_content.json
+data/
 
 delete_pinecone.py
 
