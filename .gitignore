@@ -1,0 +1,16 @@
+# === Python environment ===
+.venv/
+__pycache__/
+*.pyc
+
+# === Data outputs ===
+scrape_data/__pycache__/
+
+# === Scraped data files (optional: remove if you want to track them) ===
+data/
+
+delete_pinecone.py
+project-tds-virtual-ta-promptfoo.yaml
+
+.vscode/
+.env

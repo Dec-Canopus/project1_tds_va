@@ -1,0 +1,13 @@
+langchain_core
+selenium
+beautifulsoup4
+tqdm
+python-dotenv
+pinecone
+langchain-pinecone
+langchain-openai
+langchain
+fastapi
+uvicorn
+pillow
+pytesseract
