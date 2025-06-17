@@ -1,8 +1,18 @@
 from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from rag_process import complete_rag_process
 
 app = FastAPI()
+
+# Enable CORS for all origins (public access)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post("/api/")
 async def handle_rag_request(request: Request):
@@ -31,7 +41,6 @@ async def handle_rag_request(request: Request):
 
     except Exception as e:
         return JSONResponse(status_code=500, content={"error": str(e)})
-
 
 @app.get("/")
 def blank():
