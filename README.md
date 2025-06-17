@@ -26,18 +26,18 @@ This project provides a simple **Retrieval-Augmented Generation (RAG)** API usin
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/Dec-Canopus/project1_tds_va.git
+cd project1_tds_va
 
 # Create virtual environment
-python -m venv venv
+python -m venv .venv
 
 # Activate it
 # Windows:
-venv\Scripts\activate
+.venv\Scripts\activate
 
 # macOS/Linux:
-source venv/bin/activate
+source .venv/bin/activate
 
 
 pip install -r requirements.txt
